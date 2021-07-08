@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{764bae9f-f813-4d1b-b00f-dd7f4554c497}</ProjectGuid>
+    <RootNamespace>T06ANIM</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\CGSG\TGRKIT\INCLUDE</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\CGSG\TGRKIT\LIB</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\CGSG\TGRKIT\INCLUDE</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\CGSG\TGRKIT\LIB</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\ANIM\anim.h" />
+    <ClInclude Include="SRC\ANIM\input.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\fbo.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\pipeline.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\prim.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\render.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\res.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\fonts.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\image.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\material.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\shader.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\texture.h" />
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\topology.h" />
+    <ClInclude Include="SRC\ANIM\timer.h" />
+    <ClInclude Include="SRC\ANIM\unit_register.h" />
+    <ClInclude Include="SRC\def.h" />
+    <ClInclude Include="SRC\MTH\mth.h" />
+    <ClInclude Include="SRC\MTH\mthdef.h" />
+    <ClInclude Include="SRC\MTH\mth_cam.h" />
+    <ClInclude Include="SRC\MTH\mth_matr.h" />
+    <ClInclude Include="SRC\MTH\mth_utils.h" />
+    <ClInclude Include="SRC\MTH\mth_vec.h" />
+    <ClInclude Include="SRC\MTH\mth_vec2.h" />
+    <ClInclude Include="SRC\MTH\mth_vec3.h" />
+    <ClInclude Include="SRC\MTH\mth_vec4.h" />
+    <ClInclude Include="SRC\stock.h" />
+    <ClInclude Include="SRC\UTILS\geom.h" />
+    <ClInclude Include="SRC\UTILS\particles.h" />
+    <ClInclude Include="SRC\UTILS\physics.h" />
+    <ClInclude Include="SRC\UTILS\skybox.h" />
+    <ClInclude Include="SRC\WIN\win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\ANIM\anim.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\fbo.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\glew.c" />
+    <ClCompile Include="SRC\ANIM\RENDER\pipeline.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\prim.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\render.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\fonts.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\image.cpp" />
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\topology.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni-Info.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Control.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Game.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Ground.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Skybox.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Tor.cpp" />
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Uaz.cpp" />
+    <ClCompile Include="SRC\main.cpp" />
+    <ClCompile Include="SRC\UTILS\geom.cpp" />
+    <ClCompile Include="SRC\UTILS\particles.cpp" />
+    <ClCompile Include="SRC\UTILS\physics.cpp" />
+    <ClCompile Include="SRC\UTILS\skybox.cpp" />
+    <ClCompile Include="SRC\WIN\win.cpp" />
+    <ClCompile Include="SRC\WIN\winmsg.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

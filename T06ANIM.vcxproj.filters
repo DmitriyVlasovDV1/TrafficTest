@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{733dfec7-b5cf-473f-a8a0-a7edca51e416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{3f22227d-45f1-4233-a421-bd4a06b4eb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{ec8ab43a-8b62-4a73-90c8-cc1e405f783d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\Render">
+      <UniqueIdentifier>{a647c845-7d8f-4f53-bf04-c8c65238c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation\Render\Resources">
+      <UniqueIdentifier>{752bd2c5-5042-4d77-bec0-a2f0ad50982b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{d0d2d76d-5fa6-4117-bd22-b0fdd72cebef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stock">
+      <UniqueIdentifier>{091a7197-e82d-4c6a-a0f7-50baecc72a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Vectors">
+      <UniqueIdentifier>{68214b30-41c9-43b8-9f7d-cacb006a6eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Matrixes">
+      <UniqueIdentifier>{07d78303-4bb8-4315-b613-bf66b04e9eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Camera">
+      <UniqueIdentifier>{5f89ea33-1d1d-4c5f-a939-7703a821e933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math\Utils">
+      <UniqueIdentifier>{d9e50798-efd8-4861-aed3-bee48b499ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c43030ff-17a7-4041-a1eb-4ddb02de2815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\WIN\win.h">
+      <Filter>Source Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mthdef.h">
+      <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\anim.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\input.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\timer.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\unit_register.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\prim.h">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\render.h">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\res.h">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\fonts.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\image.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\material.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\shader.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\texture.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\RESOURCES\topology.h">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\stock.h">
+      <Filter>Source Files\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_cam.h">
+      <Filter>Source Files\Math\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_vec.h">
+      <Filter>Source Files\Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_utils.h">
+      <Filter>Source Files\Math\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_matr.h">
+      <Filter>Source Files\Math\Matrixes</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_vec2.h">
+      <Filter>Source Files\Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_vec3.h">
+      <Filter>Source Files\Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\MTH\mth_vec4.h">
+      <Filter>Source Files\Math\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\UTILS\physics.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\fbo.h">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\ANIM\RENDER\pipeline.h">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\UTILS\geom.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\UTILS\skybox.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\UTILS\particles.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\WIN\win.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\WIN\winmsg.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\anim.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\prim.cpp">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\render.cpp">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\fonts.cpp">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\image.cpp">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\RESOURCES\topology.cpp">
+      <Filter>Source Files\Animation\Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Tor.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Uaz.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni-Info.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Control.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\fbo.cpp">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\pipeline.cpp">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Skybox.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\UTILS\geom.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\UTILS\skybox.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\UTILS\particles.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\UTILS\physics.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Ground.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\BIN\UNITS\Uni_Game.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\ANIM\RENDER\glew.c">
+      <Filter>Source Files\Animation\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
